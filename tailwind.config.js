@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-
+        "deep-blue": "#010026"
       }
     },
     screens: {
