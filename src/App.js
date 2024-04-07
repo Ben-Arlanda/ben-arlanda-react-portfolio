@@ -1,4 +1,5 @@
 import Navbar from "./scenes/Navbar"
+import LandingPage from "./scenes/LandingPage"
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery"
 
@@ -15,6 +16,7 @@ function App() {
       selectedPage={selectedPage}
       setSelectedPage={setSelectedPage}
       /> 
+      <LandingPage setSelectedPage={setSelectedPage}/>
     </div>
     
   );
