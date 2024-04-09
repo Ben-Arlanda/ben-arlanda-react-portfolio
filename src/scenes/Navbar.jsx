@@ -33,7 +33,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
   return (
     <nav className={`z-40 w-full fixed top-0 py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className={`font-sans text-2xl font-bold`}>BA</h4>
+        <h4 className={`font-sans text-2xl font-bold`}>B.</h4>
 
         {/* Render navigation links if screen size is above 768px */}
         {isAboveSmallScreens ? (

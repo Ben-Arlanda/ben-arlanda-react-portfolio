@@ -27,13 +27,6 @@ const SocialMediaIcons = () => {
       >
         <img src={instagramIcon} alt="" />
       </a>
-      <a className="hover:opacity-50 transition duration-500"
-        href="https://twitter.com/?lang=en"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={twitterIcon} alt="" />
-      </a>
     </div>
     
   )
