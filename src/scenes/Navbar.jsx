@@ -11,11 +11,12 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
   // Render navigation link with smooth scroll behavior
   return (
+    
     <AnchorLink
-      className={`${selectedPage === lowerCasePage ? "text-yellow" : ""
-        } hover:text-yellow transition duration-500`}
+      className="text-light-grey text-sm no-underline font-mono font-thin hover:opacity-50 transition duration-500"
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
+      
     >
       {page}
     </AnchorLink>
@@ -31,9 +32,9 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
   const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
 
   return (
-    <nav className={`z-40 w-full fixed top-0 py-6`}>
-      <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className={`font-sans text-2xl font-bold`}>B.</h4>
+    <nav className="z-40 w-full fixed top-0 py-6 bg-deep-blue">
+      <div className="flex items-center justify-between mx-auto w-5/6 ">
+        <h4 className="font-sans text-2xl font-bold text-light-grey">B.</h4>
 
         {/* Render navigation links if screen size is above 768px */}
         {isAboveSmallScreens ? (
@@ -42,17 +43,18 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               page="Home"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
+              className="hover:opacity-50 transition duration-500"
             />
             <Link
               page="About"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="Experience"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
             <Link
               page="Projects"
               selectedPage={selectedPage}
@@ -88,6 +90,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                 page="Home"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                
               />
               <Link
                 page="About"
