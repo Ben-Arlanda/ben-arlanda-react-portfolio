@@ -37,15 +37,15 @@ const Projects = () => {
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Pawsome</h3>
               <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">I developed a Front End React app from scratch using component based architecture with API integration from the Dog API, to fetch and display information about various dog breeds.
-                Implemented client-side routing using React Router, defining routes with components and nested routes for modular navigation.
+                Users can search for dog breeds and add or remove them from favourites.
               </p>
               <p className="mt-4 text-sm md:text-base font-mono text-green-200">React, JavaScript, API.</p>
               <div className="project-icons mt-4 flex items-center">
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-400 flex items-center mr-4 text-sm md:text-base font-mono">
+                <a href="https://github.com/Ben-Arlanda/Pawsome_react_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 flex items-center mr-4 text-sm md:text-base font-mono">
                   <img src={githubIcon} alt="GitHub" className="w-6 h-6 mr-1" />
                   GitHub
                 </a>
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-400 flex items-center text-sm md:text-base font-mono">
+                <a href="https://pawesome-react-project.surge.sh/" target="_blank" rel="noopener noreferrer" className="text-gray-400 flex items-center text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
                   Live
                 </a>
@@ -65,11 +65,11 @@ const Projects = () => {
               </p>
               <p className="text-green-200 mt-4 text-sm md:text-base font-mono">Node, JavaScript, API, Express, PostgreSQL.</p>
               <div className="project-icons mt-4 flex items-center">
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center mr-4 text-sm md:text-base font-mono">
+                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center mr-4 text-sm md:text-base font-mono">
                   <img src={githubIcon} alt="GitHub" className="w-6 h-6 mr-1" />
                   GitHub
                 </a>
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
+                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
                   Live
                 </a>
@@ -91,11 +91,11 @@ const Projects = () => {
               </p>
               <p className="text-green-200 mt-4 text-sm md:text-base font-mono">Node, JavaScript, API, Express, PostgreSQL.</p>
               <div className="project-icons mt-4 flex items-center">
-                <a href="https://github.com/Ben-Arlanda/flavoursome_crud_app" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
+                <a href="https://github.com/Ben-Arlanda/flavoursome_crud_app" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
                   <img src={githubIcon} alt="Live Site" className="w-6 h-6 mr-1" />
                   Github
                 </a>
-                <a href="live-site-link" className="text-gray-600 flex items-center ml-3 text-sm md:text-base font-mono">
+                <a href="https://flavoursome-app.onrender.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center ml-3 text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
                   Live
                 </a>
@@ -116,11 +116,11 @@ const Projects = () => {
               </p>
               <p className="text-green-200 mt-4 text-sm md:text-base font-mono">HTML, CSS, JavaScript</p>
               <div className="project-icons mt-4 flex items-center">
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center mr-4 text-sm md:text-base font-mono">
+                <a href="https://github.com/Ben-Arlanda/Tic-Tac-Toe" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center mr-4 text-sm md:text-base font-mono">
                   <img src={githubIcon} alt="GitHub" className="w-6 h-6 mr-1" />
                   GitHub
                 </a>
-                <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
+                <a href="https://ben-arlanda.github.io/Tic-Tac-Toe/" target="_blank" rel="noopener noreferrer" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
                   Live
                 </a>

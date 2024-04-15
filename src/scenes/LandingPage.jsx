@@ -33,7 +33,7 @@ const LandingPage = ({ setSelectedPage }) => {
             I come from a <span className="text-green-200">diverse</span> background living in 3 countries which fuels my <span className="text-green-200">passion</span> for <span className="text-green-200">creativity</span> and user experience. I want to create digital experiences with meaning that have a <span className="text-green-200">postive</span> impact on people's lives. 
           </p>
           <div className="font-mono text-green-200 ml-1">
-            CHECK ME OUT BELOW !
+            CHECK ME OUT BELOW!
             <img src={Arrow} alt="" className="mt-5 animate-flash-letter"/>
           </div>
         </motion.div>
