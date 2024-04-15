@@ -21,7 +21,6 @@ const Projects = () => {
             visible: { opacity: 1, x: -25 }
           }}
         >
-          {/* <div className="h-0.5 bg-white w-40"></div> */}
         </motion.div>
 
         <motion.div
@@ -38,7 +37,7 @@ const Projects = () => {
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Pawsome</h3>
               <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">I developed a Front End React app from scratch using component based architecture with API integration from the Dog API, to fetch and display information about various dog breeds.
-                Implemented client-side routing using React Router, defining routes with components and nested routes for modular navigation
+                Implemented client-side routing using React Router, defining routes with components and nested routes for modular navigation.
               </p>
               <p className="mt-4 text-sm md:text-base font-mono text-green-200">React, JavaScript, API.</p>
               <div className="project-icons mt-4 flex items-center">
@@ -61,9 +60,9 @@ const Projects = () => {
             <div className="project-description p-4 rounded-md max-w-xs mb-4 sm:mb-0 sm:mr-4 sm:ml-4">
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Pipeline</h3>
-              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">A single page application using RESTful API & Google map API integration to create an interactive map and display information about petrol stations
+              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">A single page application using RESTful API & Google map API integration to create an interactive map and display information about petrol stations.
                 Collaborated and pair programmed in a team environment.
-               </p>
+              </p>
               <p className="text-green-200 mt-4 text-sm md:text-base font-mono">Node, JavaScript, API, Express, PostgreSQL.</p>
               <div className="project-icons mt-4 flex items-center">
                 <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center mr-4 text-sm md:text-base font-mono">
@@ -72,7 +71,7 @@ const Projects = () => {
                 </a>
                 <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
-                  Live 
+                  Live
                 </a>
               </div>
             </div>
@@ -85,10 +84,10 @@ const Projects = () => {
             <div className="project-description p-4 rounded-md max-w-xs mb-4 sm:mb-0 sm:mr-4 sm:ml-4">
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Flavoursome</h3>
-              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins ">Developed an interactive Full Stack web Restaurant application.
+              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins ">Developed a Full Stack restaurant review app.
                 Followed RESTful principles for seamless communication between the client and server.
-                Set up MVC architecture for modular structure making the app easier to scale and extend
-            
+                Set up MVC architecture for modular structure making the app easier to scale and extend.
+
               </p>
               <p className="text-green-200 mt-4 text-sm md:text-base font-mono">Node, JavaScript, API, Express, PostgreSQL.</p>
               <div className="project-icons mt-4 flex items-center">
@@ -98,7 +97,7 @@ const Projects = () => {
                 </a>
                 <a href="live-site-link" className="text-gray-600 flex items-center ml-3 text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
-                  Live 
+                  Live
                 </a>
               </div>
             </div>
@@ -111,7 +110,7 @@ const Projects = () => {
             <div className="project-description p-4 rounded-md max-w-xs mb-4 sm:mb-0 sm:mr-4 sm:ml-4">
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Tic Tac Toe</h3>
-              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">Game app utilising JavaScript to manipulate the DOM for dynamic content and user interactions
+              <p className="text-1xl md:text-1xl text-base  text-gray-400 font-normal font-Poppins">Game app utilising JavaScript to manipulate the DOM for dynamic content and user interactions.
                 Attached event listeners to the cells of the grid to detect user clicks.
                 Implemented game, winner and tie logic with functions.
               </p>
@@ -123,7 +122,7 @@ const Projects = () => {
                 </a>
                 <a href="https://github.com/Ben-Arlanda/pipeline/tree/ben" className="text-gray-600 flex items-center text-sm md:text-base font-mono">
                   <img src={arrowIcon} alt="Live Site" className="w-6 h-6 mr-1" />
-                  Live 
+                  Live
                 </a>
               </div>
             </div>
@@ -137,5 +136,7 @@ const Projects = () => {
   );
 };
 export default Projects;
+
+
 
 

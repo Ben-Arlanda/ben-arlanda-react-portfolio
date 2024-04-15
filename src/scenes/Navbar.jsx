@@ -50,11 +50,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            {/* <Link
-              page="Experience"
-              selectedPage={selectedPage}
-              setSelectedPage={setSelectedPage}
-            /> */}
             <Link
               page="Projects"
               selectedPage={selectedPage}
@@ -76,7 +71,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 
         {/* HAMBURGER POPUP MENU */}
         {!isAboveSmallScreens && isMenuToggled && (
-          <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-deep-blue">
+          <div className="fixed top-0 left-0 w-full flex items-center justify-center bg-deep-blue py-5">
 
             {/* CLOSE ICON */}
             <div className="absolute top-0 right-0 p-4">
@@ -97,11 +92,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
-                page="Experience"
-                selectedPage={selectedPage}
-                setSelectedPage={setSelectedPage}
-              />
+     
               <Link
                 page="Projects"
                 selectedPage={selectedPage}

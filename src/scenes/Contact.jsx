@@ -30,7 +30,7 @@ const Contact = () => {
           method='POST'
           className="w-full sm:w-1/2 sm:ml-0"
           >
-          <h2 className='md:ml-40 mb-5 "font-Poppins text-2xl font-bold whitespace-nowrap text-blue-100'>Contact Me.</h2>
+          <h2 className='md:ml-40 mb-5 "font-Poppins text-2xl font-bold whitespace-nowrap text-blue-200'>Contact Me.</h2>
           <input
             className='w-full placeholder-grey p-3 mb-5 md:ml-40 bg-deep-blue text-grey-400 border rounded-md border-gray-300 focus:outline-none focus:border-green-200'
             type="text"
@@ -78,15 +78,16 @@ const Contact = () => {
           )}
           <button
             type='submit'
-            className='text-grey-300 hover:bg-slate-300 hover:text-black transition duration-500 md:ml-40 font-thin'
+            className='text-grey-300 hover:bg-slate-300 hover:text-black md:ml-40 font-normal rounded-lg bg-slate-300 text-black pr-0.5 pl-0.5 hover:opacity-50 transition duration-500'
           >
             Send Message
           </button>
         </form>
         <div className="w-full sm:w-1/2 sm:mr-10 flex flex-col md:items-center font-Poppins font-medium">
-          <div className="text-2xl py-3 md:ml-6 text-blue-100 mt-5 md:mt-0">
-            <h2 className=''>Get in touch</h2>
-            <p>Lets talk!</p>
+          <div className="text-2xl py-3 md:ml-6 text-blue-200 mt-5 md:mt-0">
+        
+            <h2 className='text-xl md:mr-5'>Get in touch</h2>
+            <p className='text-xl'>Lets talk!</p>
           </div>
           <div className=''>
           <SocialMediaIcons />
