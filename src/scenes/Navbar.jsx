@@ -11,12 +11,12 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
 
   // Render navigation link with smooth scroll behaviour 
   return (
-    
+
     <AnchorLink
       className="text-light-grey text-sm no-underline font-mono font-thin hover:opacity-50 transition duration-500"
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
-      
+
     >
       {page}
     </AnchorLink>
@@ -85,14 +85,14 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                 page="Home"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-                
+
               />
               <Link
                 page="About"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-     
+
               <Link
                 page="Projects"
                 selectedPage={selectedPage}
