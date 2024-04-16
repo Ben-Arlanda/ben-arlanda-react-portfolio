@@ -30,7 +30,7 @@ const Contact = () => {
           method='POST'
           className="w-full sm:w-1/2 sm:ml-0"
           >
-          <h2 className='md:ml-40 mb-5 "font-Poppins text-2xl font-bold whitespace-nowrap text-blue-200'>Contact Me.</h2>
+          <h2 className='md:ml-40 mb-5 "font-Poppins text-2xl font-bold whitespace-nowrap text-blue-200'>Contact Me<span className='text-green-200'>.</span></h2>
           <input
             className='w-full placeholder-grey p-3 mb-5 md:ml-40 bg-deep-blue text-grey-400 border rounded-md border-gray-300 focus:outline-none focus:border-green-200'
             type="text"

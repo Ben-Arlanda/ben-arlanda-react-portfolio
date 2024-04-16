@@ -1,4 +1,3 @@
-import SocialMediaIcons from "../Components/SocialMediaIcons"
 import useMediaQuery from "../hooks/useMediaQuery"
 import { motion } from "framer-motion"
 import AnchorLink from "react-anchor-link-smooth-scroll"
@@ -23,7 +22,7 @@ const LandingPage = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 }
           }}
         >
-          <h3 className="md:mt-0 mb-4 text-base md:text-lg leading-normal font-mono text-green-200 ml-1">
+          <h3 className="md:mt-10 mb-4 text-base md:text-lg leading-normal font-mono text-green-200 ml-1">
             HI, MY NAME IS
           </h3>
           <h3 className="text-5xl md:text-8xl font-Poppins text-blue-200 font-extrabold md:text-start whitespace-nowrap">Ben Arlanda<span className="text-green-200">.</span>
@@ -32,7 +31,7 @@ const LandingPage = ({ setSelectedPage }) => {
             I am a <span className="text-green-200">Software Engineer</span> based in Sydney.
             I come from a <span className="text-green-200">diverse</span> background living in 3 countries which fuels my <span className="text-green-200">passion</span> for <span className="text-green-200">creativity</span> and user experience. I want to create digital experiences with meaning that have a <span className="text-green-200">postive</span> impact on people's lives. 
           </p>
-          <div className="font-mono text-green-200 ml-1">
+          <div className="font-mono text-green-200 ml-1 md:text-lg">
             CHECK ME OUT BELOW!
             <img src={Arrow} alt="" className="mt-5 animate-flash-letter"/>
           </div>

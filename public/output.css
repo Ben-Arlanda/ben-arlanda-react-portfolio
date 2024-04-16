@@ -1078,6 +1078,26 @@ video {
   padding-left: 0.125rem;
 }
 
+.pr-3{
+  padding-right: 0.75rem;
+}
+
+.pr-9{
+  padding-right: 2.25rem;
+}
+
+.pr-7{
+  padding-right: 1.75rem;
+}
+
+.pr-2{
+  padding-right: 0.5rem;
+}
+
+.pl-4{
+  padding-left: 1rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -1398,6 +1418,11 @@ body,
     margin-bottom: 1.25rem;
   }
 
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .md\:ml-0{
     margin-left: 0px;
   }
@@ -1468,6 +1493,10 @@ body,
 
   .md\:mr-10{
     margin-right: 2.5rem;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
   }
 
   .md\:flex{

@@ -32,7 +32,7 @@ const Projects = () => {
         >
           <section className="flex flex-col items-center sm:flex-row mb-20 py-10 mr-10 md:mr-0">
             <div className="project-description p-4 rounded-md max-w-xs mb-4 sm:mb-0 sm:mr-4 sm:ml-4">
-              <h3 className="font-Poppins text-3xl font-extrabold whitespace-nowrap text-blue-100">Apps I built recently<span className="text-green-200">.</span>
+              <h3 className="font-Poppins text-3xl font-extrabold whitespace-nowrap text-blue-200">Apps I built recently<span className="text-green-200">.</span>
               </h3>
               <h3 className="md:text-xl font-bold mb-2 mt-8
               text-gray-300 font-Poppins">Pawsome</h3>

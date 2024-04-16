@@ -36,9 +36,6 @@ const About = () => {
           <p className="mt-3 text-1xl md:text-1xl text-base font-normal font-Poppins">
             I am a British and Australian Citizen who has resided in 3 countries, life has taught me to think outside the box. I think this has heightened my ability to communicate effectively with people from diverse backgrounds, contributing to collaboration and understanding.
           </p>
-          {/* <p className="mt-3 text-1xl md:text-1xl text-base font-normal font-Poppins">
-            I like to consider unconventional solutions to challenges drawing from my varied experiences and perspectives and also use my adaptability and flexibility, skills that I think are valuable in navigating change and uncertainty in the tech world.
-          </p> */}
           <p className="mt-3 font-mono text-green-200 text-xs">
             Tech Skills: JavaScript, React, Node, Next, HTML, CSS, Express, PostgreSQL, API, GIT.
           </p>
