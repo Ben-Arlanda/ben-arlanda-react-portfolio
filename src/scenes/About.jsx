@@ -27,17 +27,17 @@ const About = () => {
 
           <div className="mt-3 text-gray-400">
             <p className="text-1xl md:text-1xl text-base font-Poppins font-normal">
-              Originally from sunny England, I decided to move to Sydney 11 years ago. I started a career in Recruitment and had a successful 9 years specialising in Software Engineering being promoted multiple times up to a Principal level.</p>
-            <p className="mt-3">I recently changed careers to follow my passions which still is in tech but actually building digital experiences and being a creative problem solver. I took a Full-time intensive bootcamp in Full stack Development and fully immersed myself to get valuable new skills and experience.</p>
+              Hey I'm Ben, a passionate Software Engineer originally from sunny England, Australia is my home after 11 years living here.</p>
+            <p className="mt-3 text-1xl md:text-1xl text-base font-Poppins font-normal">Recently I have been lucky enough to solely work on developing and scaling an Admin dashboard building multiple reusable components, building GraphQL APIs and restyling with TailwindCSS</p>
 
             <p className="mt-3 text-1xl md:text-1xl text-base font-normal font-Poppins">
-              On a personal level I consider myself to be a great listener. I have a strong EQ with a growth mindset and passion for human behaviour and mental health.
+              Before becoming a Software Engineer I had a successful career in Recruitment, specialising in Software Engineering and prior to this I worked in the banking sector for Top 4 banks. My banking experience gave me strong knowledge in financial products, regulatory compliance, and customer service, while my recruitment background allowed me to develop industry insights into technology and also skills in stakeholder management.
             </p>
             <p className="mt-3 text-1xl md:text-1xl text-base font-normal font-Poppins">
-              I am a British and Australian Citizen who has resided in 3 countries, life has taught me to think outside the box. I think this has heightened my ability to communicate effectively with people from diverse backgrounds, contributing to collaboration and understanding.
+              When I'm not working, you can find me spending time in nature, listening to wellness podcasts, watching sci-fi movies, keeping fit in the gym or in search of the best food spots in Sydney.
             </p>
             <p className="mt-3 font-mono text-green-200 text-xs">
-              Tech Skills: JavaScript, React, Node, Next, HTML, CSS, Express, PostgreSQL, API, GIT.
+              Tech Skills: JavaScript, React, Node.js, Next.js, TailwindCSS, Express, PostgreSQL, API, GIT.
             </p>
             <p className="mt-3 font-mono text-blue-200 text-xs">
               Soft Skills: Interpersonal communication, empathy, stakeholder management, attention to detail, resilience.

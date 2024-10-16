@@ -13,7 +13,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   return (
 
     <AnchorLink
-      className="text-light-grey text-sm no-underline font-mono font-thin hover:opacity-50 transition duration-500"
+      className="text-sm no-underline font-mono font-thin hover:opacity-50 transition duration-500 text-gray-100"
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
 
@@ -34,7 +34,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
   return (
     <nav className="z-40 w-full fixed top-0 py-6 bg-deep-blue">
       <div className="flex items-center justify-between md:mx-auto w-5/6 ml-4">
-        <h4 className="text-xl font-bold text-blue-200 font-Poppins">B<span className="text-green-200">A</span></h4>
+        <h4 className="text-xl font-extrabold text-blue-200 font-mono">B<span className="text-blue-200">A</span></h4>
 
         {/* Render navigation links if screen size is above 768px */}
         {isAboveSmallScreens ? (
