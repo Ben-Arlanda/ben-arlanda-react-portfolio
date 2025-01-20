@@ -124,7 +124,7 @@ const Projects = () => {
 														))}
 													</div>
 												</div>
-												<div className="project-icons flex justify-end">
+												<div className="project-icons flex justify-end pt-3">
 													<a
 														href={card.githubLink}
 														target="_blank"
