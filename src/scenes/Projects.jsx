@@ -17,7 +17,7 @@ const Projects = () => {
 				"Interactive weather application built with TypeScript integrating with the Openweather API. The app uses TanStack Query for efficient data fetching and state management, ensuring real-time weather updates and caching for improved performance. The UI is styled using ShadCN components and Tailwind CSS, for responsive design. Visualisations of weather trends and forecasts are powered by Recharts, providing users with intuitive and dynamic charts. Users can also dynamically add and remove their favourite cities.",
 			image: weatherImage,
 			skills:
-				"Nextjs React TypeScript TanStack Query ShadCN TailwindCSS OpenWeather API Recharts Jest AWS EC2",
+				"Nextjs React TypeScript TanStack-Query ShadCN TailwindCSS OpenWeather API Recharts Jest AWS-EC2",
 			liveLink: "https://clear-sky-ten.vercel.app/",
 			githubLink: "https://github.com/Ben-Arlanda/ClearSky",
 		},
@@ -27,7 +27,7 @@ const Projects = () => {
 			description:
 				"A React Native mobile application built with Expo and TypeScript that allows users to search for news articles by keyword. The app fetches data from the News API, dynamically updates the results in real-time, and features a responsive design using NativeWind. Key functionalities include user-friendly search input, a loading spinner for better UX, and cleanly displayed articles with author, title, and description. The app demonstrates modular component design, environment variable management, and dynamic API integration.",
 			image: newsapi,
-			skills: "React Native Expo TypeScript NativeWind Jest NewsAPI",
+			skills: "React-Native Expo TypeScript NativeWind Jest NewsAPI",
 			liveLink: "https://github.com/Ben-Arlanda/react_native_api_app",
 			githubLink: "https://github.com/Ben-Arlanda/react_native_api_app",
 		},
@@ -38,7 +38,7 @@ const Projects = () => {
 				"This is a full-stack web application consisting of a client-side React application and a server-side Express application. It allows users to submit contact information through a form, which is then saved in a PostgreSQL database using an ORM and Sequelize. The application provides company contact information through an API and also a thankyou page. I decided to use Tailwind UI for the frontend to make the design process quicker and allow more focus on the API development. I have containerised the app with Docker and deployed it on AWS EC2.",
 			image: openagent,
 			skills:
-				"React Nodejs Express PostgreSQL REST API Tailwind Docker Jest AWS EC2",
+				"React Nodejs Express PostgreSQL REST API Tailwind Docker Jest AWS-EC2",
 			liveLink: "https://github.com/Ben-Arlanda/OpenAgent_WorkSample",
 			githubLink: "https://github.com/Ben-Arlanda/OpenAgent_WorkSample",
 		},
