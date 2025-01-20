@@ -73,7 +73,7 @@ const Projects = () => {
 					}}
 					className="flex justify-center items-center w-full"
 				>
-					<div className="mx-auto">
+					<div className="mx-auto px-1">
 						<h3 className="font-inter text-3xl font-semibold text-blue-200 mb-2">
 							Apps I built recently<span className="text-green-200">.</span>
 						</h3>
