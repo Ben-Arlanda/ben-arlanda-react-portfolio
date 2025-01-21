@@ -27,8 +27,9 @@ const About = () => {
 						visible: (custom) => ({ opacity: 1, x: custom.visibleX }),
 					}}
 				>
-					<h3 className="text-2xl md:text-2xl md:text-start font-Inter font-semibold text-blue-200">
+					<h3 className="text-2xl md:text-2xl md:text-start font-Inter font-semibold text-blue-200 flex items-center pb-7">
 						About Me<span className="text-green-200">.</span>
+						<span className="ml-4 w-40 md:w-80 border-t border-gray-700" />
 					</h3>
 
 					<div className="mt-3 text-gray-400">
@@ -58,9 +59,10 @@ const About = () => {
 							stakeholders.
 						</p>
 						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
-							When I'm not working, you can find me spending time in nature,
-							listening to wellness podcasts, watching sci-fi movies, keeping
-							fit in the gym or in search of the best food spots in Sydney.
+							When I'm not working, you can find me learning more about the V8
+							engine and Python, spending time in nature, listening to wellness
+							podcasts, watching sci-fi movies, keeping fit in the gym or in
+							search of the best food spots in Sydney.
 						</p>
 						{/* <p className="mt-3 font-mono text-green-200 text-sm">
 							Tech Skills: TypeScript, JavaScript, React, Node.js, Next.js,

@@ -2,6 +2,7 @@ import weatherImage from "../assets/weatherapp.png";
 import newsapi from "../assets/newsapi.png";
 import openagent from "../assets/openagent.png";
 import auto from "../assets/auto.png";
+import tangerine from "../assets/tangerine.png";
 import githubIcon from "../assets/github-11-24.png";
 import arrowIcon from "../assets/arrow-28-24.png";
 import { motion } from "framer-motion";
@@ -10,6 +11,17 @@ import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 
 const Projects = () => {
 	const cards = [
+		{
+			id: 0,
+			title: "Tangerine",
+			description:
+				"Redesign and development of Gladly’s admin dashboard, a centralised platform for managing user data, transaction histories, and operational workflows. Built using Next.js, React, TypeScript, and TailwindCSS, the dashboard provides an interface for seamless data management. Developed reusable components, including dynamic tables and a responsive sidebar, to efficiently display and navigate large datasets. Integrated GraphQL APIs with pagination to fetch and render user details and transaction records from AWS DynamoDB, ensuring optimised performance and scalability. Implemented Zod for type-safe data validation, enhancing the reliability of API responses and protecting data integrity.",
+			image: tangerine,
+			skills:
+				"Nextjs React TypeScript TanStack-Query GraphQL TailwindCSS Jest AWS",
+			liveLink: "https://github.com/Ben-Arlanda",
+			githubLink: "https://github.com/Ben-Arlanda",
+		},
 		{
 			id: 0,
 			title: "ClearSky",
@@ -74,8 +86,9 @@ const Projects = () => {
 					className="flex justify-center items-center w-full"
 				>
 					<div className="mx-auto px-4">
-						<h3 className="font-inter text-2xl font-semibold text-blue-200 mb-2">
-							Apps I built recently<span className="text-green-200">.</span>
+						<h3 className="font-inter text-2xl font-semibold text-blue-200 mb-2 flex items-center pb-7">
+							Projects<span className="text-green-200">.</span>
+							<span className="ml-4 w-40 md:w-80 border-t border-gray-700" />
 						</h3>
 
 						<section
