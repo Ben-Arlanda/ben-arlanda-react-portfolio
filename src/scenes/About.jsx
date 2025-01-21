@@ -16,7 +16,7 @@ const About = () => {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
-					transition={{ duration: 2 }}
+					transition={{ duration: 1 }}
 					custom={
 						window.innerWidth < 768
 							? { hiddenX: -150, visibleX: 0 }
@@ -32,11 +32,11 @@ const About = () => {
 					</h3>
 
 					<div className="mt-3 text-gray-400">
-						<p className="text-1xl md:text-1xl text-base font-inter font-normal">
+						<p className="text-1xl md:text-1xl text-base font-inter font-normal leading-relaxed">
 							Hey! I'm Ben, a passionate Software Engineer originally from sunny
 							England, I am now a proud citizen of Australia mate.
 						</p>
-						<p className="mt-3 text-1xl md:text-1xl text-base font-inter font-normal">
+						<p className="mt-3 text-1xl md:text-1xl text-base font-inter font-normal leading-relaxed">
 							Being a very curious person I like to understand the "why" behind
 							all things like why are things built the way they are and why were
 							those decisions made. This translates well to my passions in
@@ -47,7 +47,7 @@ const About = () => {
 							bring the most impact.
 						</p>
 
-						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter">
+						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
 							Before becoming a Software Engineer I had a career in Recruitment,
 							specialising in Software Engineering and prior to this I worked in
 							the banking sector for Top 4 banks. My banking experience gave me
@@ -57,19 +57,19 @@ const About = () => {
 							the bigger picture and also communicating effectively with
 							stakeholders.
 						</p>
-						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter">
+						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
 							When I'm not working, you can find me spending time in nature,
 							listening to wellness podcasts, watching sci-fi movies, keeping
 							fit in the gym or in search of the best food spots in Sydney.
 						</p>
-						<p className="mt-3 font-mono text-green-200 text-sm">
+						{/* <p className="mt-3 font-mono text-green-200 text-sm">
 							Tech Skills: TypeScript, JavaScript, React, Node.js, Next.js,
 							TailwindCSS, Express, PostgreSQL, API, GIT.
 						</p>
 						<p className="mt-3 font-mono text-blue-200 text-sm">
 							Soft Skills: Interpersonal communication, empathy, stakeholder
 							management, attention to detail, resilience.
-						</p>
+						</p> */}
 					</div>
 				</motion.div>
 			</div>
