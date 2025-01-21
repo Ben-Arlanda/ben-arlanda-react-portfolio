@@ -1,6 +1,5 @@
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import Arrow from "../assets/arrow-204-24.png";
 
 const LandingPage = ({ setSelectedPage }) => {
