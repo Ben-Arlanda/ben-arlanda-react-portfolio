@@ -105,11 +105,11 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 								selectedPage={selectedPage}
 								setSelectedPage={setSelectedPage}
 							/>
-							<Link
+							{/* <Link
 								page="Contact"
 								selectedPage={selectedPage}
 								setSelectedPage={setSelectedPage}
-							/>
+							/> */}
 						</div>
 					</div>
 				)}
