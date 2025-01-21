@@ -1,4 +1,4 @@
-import weatherImage from "../assets/weatherapp2.png";
+import weatherImage from "../assets/weatherapp.png";
 import newsapi from "../assets/newsapi.png";
 import openagent from "../assets/openagent.png";
 import auto from "../assets/auto.png";
