@@ -76,8 +76,8 @@ const Projects = () => {
 					transition={{ duration: 1 }}
 					custom={
 						window.innerWidth < 768
-							? { hiddenX: -150, visibleX: 0 }
-							: { hiddenX: -350, visibleX: 50 }
+							? { hiddenX: -50, visibleX: 0 }
+							: { hiddenX: -200, visibleX: 50 }
 					}
 					variants={{
 						hidden: (custom) => ({ opacity: 0, x: custom.hiddenX }),
