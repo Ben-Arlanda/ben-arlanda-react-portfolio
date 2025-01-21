@@ -34,8 +34,8 @@ const About = () => {
 
 					<div className="mt-3 text-gray-400">
 						<p className="text-1xl md:text-1xl text-base font-inter font-normal leading-relaxed">
-							Hey! I'm Ben, a passionate Software Engineer originally from sunny
-							England, I am now a proud citizen of Australia mate.
+							Hey! I'm Ben, a passionate Full Stack Engineer originally from
+							sunny England, I am now a proud citizen of Australia mate.
 						</p>
 						<p className="mt-3 text-1xl md:text-1xl text-base font-inter font-normal leading-relaxed">
 							Being a very curious person I like to understand the "why" behind
@@ -49,14 +49,14 @@ const About = () => {
 						</p>
 
 						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
-							Before becoming a Software Engineer I had a career in Recruitment,
-							specialising in Software Engineering and prior to this I worked in
-							the banking sector for Top 4 banks. My banking experience gave me
-							strong knowledge in financial products, regulatory compliance, and
-							customer service, while my recruitment background allowed me to
-							develop experience in understanding business requirements to see
-							the bigger picture and also communicating effectively with
-							stakeholders.
+							Before becoming a Full Stack Engineer I had a career in
+							Recruitment, specialising in Software Engineering and prior to
+							this I worked in the banking sector for Top 4 banks. My banking
+							experience gave me strong knowledge in financial products,
+							regulatory compliance, and customer service, while my recruitment
+							background allowed me to develop experience in understanding
+							business requirements to see the bigger picture and also
+							communicating effectively with stakeholders.
 						</p>
 						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
 							When I'm not working, you can find me learning more about the V8
@@ -64,14 +64,6 @@ const About = () => {
 							podcasts, watching sci-fi movies, keeping fit in the gym or in
 							search of the best food spots in Sydney.
 						</p>
-						{/* <p className="mt-3 font-mono text-green-200 text-sm">
-							Tech Skills: TypeScript, JavaScript, React, Node.js, Next.js,
-							TailwindCSS, Express, PostgreSQL, API, GIT.
-						</p>
-						<p className="mt-3 font-mono text-blue-200 text-sm">
-							Soft Skills: Interpersonal communication, empathy, stakeholder
-							management, attention to detail, resilience.
-						</p> */}
 					</div>
 				</motion.div>
 			</div>
