@@ -33,12 +33,11 @@ const LandingPage = ({ setSelectedPage }) => {
 						Ben Arlanda<span className="text-green-200">.</span>
 					</h3>
 					<p className="mt-4 mb-7 text-y font-inter font-normal text-gray-400 ml-1 leading-relaxed">
-						I am a Product-Focused
-						<span className="text-green-200"> Full Stack Engineer</span> based
-						in Sydney. I love transforming ideas into intuitive, impactful
-						solutions that prioritise the user. My passion lies in collaborating
-						across teams, solving problems creatively, and always keeping the
-						user at the heart of the solution.
+						<h3 className="text-2xl font-extralight leading-relaxed">
+							I'm a Product-Focused
+							<span className="text-green-200"> Full Stack Engineer</span> based
+							in Sydney.
+						</h3>
 					</p>
 					<div className="font-mono text-green-200 ml-1 md:text-lg">
 						CHECK ME OUT BELOW!

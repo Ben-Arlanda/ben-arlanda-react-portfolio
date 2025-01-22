@@ -5,7 +5,6 @@ import About from "./scenes/About";
 import Footer from "./scenes/Footer";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
-import VantaFogBackground from "./Components/VantaBackground";
 
 function App() {
 	// use state to check which page user is on
@@ -17,6 +16,7 @@ function App() {
 			<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 			<LandingPage setSelectedPage={setSelectedPage} />
 			<About setSelectedPage={setSelectedPage} />
+
 			<Projects />
 			<Footer />
 		</div>

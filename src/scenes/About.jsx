@@ -38,14 +38,16 @@ const About = () => {
 							sunny England, I am now a proud citizen of Australia mate.
 						</p>
 						<p className="mt-3 text-1xl md:text-1xl text-base font-inter font-normal leading-relaxed">
-							Being a very curious person I like to understand the "why" behind
-							all things like why are things built the way they are and why were
-							those decisions made. This translates well to my passions in
-							Software Engineering when building a new feature for a product and
-							asking why will this benefit the business and user. I ask a lot of
-							questions so I can understand exactly why features and products
-							are built which enables me to offer the best suggestions that
-							bring the most impact.
+							My passion lies in collaborating across teams, solving problems
+							creatively, and always keeping the user at the heart of the
+							solution. Being a very curious person I like to understand the
+							"why" behind all things like why are things built the way they are
+							and why were those decisions made. This translates well to my
+							passions in Software Engineering when building a new feature for a
+							product and asking why will this benefit the business and user. I
+							ask a lot of questions so I can understand exactly why features
+							and products are built which enables me to offer the best
+							suggestions that bring the most impact.
 						</p>
 
 						<p className="mt-3 text-1xl md:text-1xl text-base font-normal font-inter leading-relaxed">
