@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import * as THREE from "three";
-import VANTA from "vanta/dist/vanta.clouds.min";
+import VANTA from "vanta/dist/vanta.fog.min";
 
 const VantaFogBackground = () => {
 	const [vantaEffect, setVantaEffect] = useState(null);
@@ -17,14 +17,11 @@ const VantaFogBackground = () => {
 					gyroControls: false,
 					minHeight: 200.0,
 					minWidth: 200.0,
-					scaleMobile: 0.8,
-					skyColor: 0x6f6feb,
-					cloudColor: 0xa7c7e6,
-					cloudShadowColor: 0x3c7ec5,
-					sunColor: 0xfc991c,
-					sunGlareColor: 0xf7612f,
-					sunlightColor: 0xf79533,
-					speed: 0.3,
+					highlightColor: 0xef7,
+					midtoneColor: 0xfc2103,
+					lowlightColor: 0x2e03fa,
+					baseColor: 0x7,
+					speed: 0.5,
 				}),
 			);
 		}
