@@ -17,7 +17,7 @@ const VantaFogBackground = () => {
 					gyroControls: false,
 					minHeight: 200.0,
 					minWidth: 200.0,
-					scaleMobile: 1.0,
+					scaleMobile: 0.8,
 					skyColor: 0x6f6feb,
 					cloudColor: 0xa7c7e6,
 					cloudShadowColor: 0x3c7ec5,
