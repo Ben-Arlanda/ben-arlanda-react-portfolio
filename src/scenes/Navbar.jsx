@@ -31,7 +31,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
 	const isAboveSmallScreens = useMediaQuery("(min-width: 768px)");
 
 	return (
-		<nav className="z-40 w-full fixed top-0 py-6 bg-deep-blue">
+		<nav className="z-40 w-full top-0 py-6 relative">
 			<div className="flex items-center justify-between md:mx-auto w-5/6 ml-4">
 				<h4 className="text-xl font-extrabold text-blue-200 font-mono">
 					<img

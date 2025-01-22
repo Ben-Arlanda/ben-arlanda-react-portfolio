@@ -2,7 +2,7 @@ import SocialMediaIcons from "../Components/SocialMediaIcons";
 
 const Footer = () => {
 	return (
-		<footer className="flex-col items-center justify-center py-8 font-mono">
+		<footer className="flex-col items-center justify-center py-8 font-mono relative">
 			<div className="flex flex-col items-center justify-center">
 				<p className="mb-4 text-green-200">
 					&copy; Designed and Built By Ben Arlanda

@@ -5,7 +5,7 @@ import About from "./scenes/About";
 import Footer from "./scenes/Footer";
 import { useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
-import Contact from "./scenes/Contact";
+import VantaFogBackground from "./Components/VantaBackground";
 
 function App() {
 	// use state to check which page user is on
@@ -13,12 +13,12 @@ function App() {
 	// variable to check for screen size for users
 	const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 	return (
-		<div className="app bg-deep-blue">
+		<div className="app bg-deep-blue relative">
+			<VantaFogBackground />
 			<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 			<LandingPage setSelectedPage={setSelectedPage} />
 			<About setSelectedPage={setSelectedPage} />
 			<Projects />
-			{/* <Contact /> */}
 			<Footer />
 		</div>
 	);
