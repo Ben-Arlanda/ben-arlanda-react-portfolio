@@ -7,7 +7,7 @@ const About = () => {
 	return (
 		<section
 			id="about"
-			className="md:order-2 flex justify-center basis-3/5 z-10 mt-20 md:mt-30 md:mr-20 mb-40"
+			className="md:order-2 flex justify-center basis-3/5 z-10 mt-20 md:mt-30 md:mr-20 mb-20"
 		>
 			{/* MAIN CONTENT */}
 

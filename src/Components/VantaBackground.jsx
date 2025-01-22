@@ -17,11 +17,9 @@ const VantaFogBackground = () => {
 					gyroControls: false,
 					minHeight: 200.0,
 					minWidth: 200.0,
-					highlightColor: 0xef7,
-					midtoneColor: 0xfc2103,
-					lowlightColor: 0x2e03fa,
-					baseColor: 0x7,
-					speed: 0.5,
+					highlightColor: 0x2c00ff,
+					midtoneColor: 0x10111,
+					baseColor: 0x6041e,
 				}),
 			);
 		}

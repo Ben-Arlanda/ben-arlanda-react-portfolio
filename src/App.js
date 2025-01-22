@@ -14,7 +14,6 @@ function App() {
 	const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 	return (
 		<div className="app bg-deep-blue relative">
-			<VantaFogBackground />
 			<Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
 			<LandingPage setSelectedPage={setSelectedPage} />
 			<About setSelectedPage={setSelectedPage} />

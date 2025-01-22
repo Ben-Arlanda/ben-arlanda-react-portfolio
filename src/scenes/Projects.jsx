@@ -68,7 +68,7 @@ const Projects = () => {
 
 	return (
 		<>
-			<div className="flex flex-col items-start ml-2 md:mr-12 mb-20">
+			<div className="flex flex-col items-start ml-2 md:mr-12 mb-20 pt-10">
 				<motion.div
 					initial="hidden"
 					whileInView="visible"
