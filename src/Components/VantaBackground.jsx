@@ -24,6 +24,7 @@ const VantaFogBackground = () => {
 					sunColor: 0xfc991c,
 					sunGlareColor: 0xf7612f,
 					sunlightColor: 0xf79533,
+					speed: 0.3,
 				}),
 			);
 		}
