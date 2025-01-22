@@ -15,7 +15,7 @@ const LandingPage = ({ setSelectedPage }) => {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
-					transition={{ duration: 1 }}
+					transition={{ duration: 0.5 }}
 					custom={
 						window.innerWidth < 768
 							? { hiddenX: -150, visibleX: 0 }
