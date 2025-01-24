@@ -15,7 +15,7 @@ const LandingPage = ({ setSelectedPage }) => {
 					initial="hidden"
 					whileInView="visible"
 					viewport={{ once: true, amount: 0.5 }}
-					transition={{ duration: 0.5 }}
+					transition={{ duration: 1.5 }}
 					custom={
 						window.innerWidth < 768
 							? { hiddenX: -150, visibleX: 0 }
@@ -26,10 +26,10 @@ const LandingPage = ({ setSelectedPage }) => {
 						visible: (custom) => ({ opacity: 1, x: custom.visibleX }),
 					}}
 				>
-					<h3 className="md:mt-10 mb-4 text-base md:text-lg leading-normal font-mono text-green-200 ml-1">
+					{/* <h3 className="md:mt-10 mb-4 text-base md:text-lg leading-normal font-mono text-green-200 ml-1">
 						HI, MY NAME IS
-					</h3>
-					<h3 className="text-5xl md:text-8xl font-inter text-blue-200 font-extrabold md:text-start whitespace-nowrap">
+					</h3> */}
+					<h3 className="text-5xl md:text-8xl font-inter text-blue-200 font-black md:text-start whitespace-nowrap">
 						Ben Arlanda<span className="text-green-200">.</span>
 					</h3>
 					<p className="mt-4 mb-7 text-y font-inter font-normal text-gray-400 ml-1 leading-relaxed">
