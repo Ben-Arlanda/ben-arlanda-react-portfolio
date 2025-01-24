@@ -3,6 +3,7 @@ import newsapi from "../assets/newsapi.png";
 import openagent from "../assets/openagent.png";
 import auto from "../assets/auto.png";
 import tangerine from "../assets/tangerine.png";
+import ai from "../assets/ai-voice.png";
 import githubIcon from "../assets/github-11-24.png";
 import arrowIcon from "../assets/arrow-28-24.png";
 import { motion } from "framer-motion";
@@ -64,6 +65,16 @@ const Projects = () => {
 			liveLink: "https://dealer-app-bice.vercel.app/",
 			githubLink: "https://github.com/Ben-Arlanda/dealer-app",
 		},
+		{
+			id: 4,
+			title: "Ai Voice Assistant",
+			description:
+				"An AI-powered voice assistant built with LiveKit that interacts with users through voice. The assistant listens to user commands, processes them using AI, and responds with concise, natural voice replies.",
+			image: ai,
+			skills: "Python Livekit OpenAI API",
+			liveLink: "https://github.com/Ben-Arlanda/ai-voice-assistant/tree/main",
+			githubLink: "https://github.com/Ben-Arlanda/ai-voice-assistant/tree/main",
+		},
 	];
 
 	return (
@@ -100,7 +111,7 @@ const Projects = () => {
 									{cards.map((card) => (
 										<Tab
 											key={card.id}
-											className="mb-4 rounded-xl py-1 px-5 text-sm/6 font-semibold text-white focus:outline-none data-[selected]:bg-white/10
+											className="mb-4 rounded-xl py-1 px-3 text-sm/6 font-semibold text-white focus:outline-none data-[selected]:bg-white/10
                      data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white font-inter"
 										>
 											{card.title}
